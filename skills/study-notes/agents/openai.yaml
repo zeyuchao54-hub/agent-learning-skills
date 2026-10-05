@@ -1,0 +1,4 @@
+interface:
+  display_name: "Study Notes"
+  short_description: "Source-grounded Markdown and Obsidian study notes"
+  default_prompt: "Use $study-notes to organize these materials into linked learning notes."

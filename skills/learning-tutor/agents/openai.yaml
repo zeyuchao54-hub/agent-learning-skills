@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Tutor"
+  short_description: "Adaptive learning with checks and local progress"
+  default_prompt: "Use $learning-tutor to help me learn a topic and verify what I can do independently."

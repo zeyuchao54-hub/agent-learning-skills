@@ -1,0 +1,10 @@
+{
+  "notes": {
+    "enabled": true,
+    "directory": ".",
+    "format": "markdown",
+    "style": "cards",
+    "languages": ["en"],
+    "source_policy": "source-only"
+  }
+}

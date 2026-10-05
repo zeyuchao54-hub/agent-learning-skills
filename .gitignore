@@ -1,0 +1,14 @@
+# Learner data belongs outside the public skill distribution.
+workspaces/
+**/.learning/
+**/.teach/
+**/.obsidian/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.venv/
+_build/
+*.zip
+.DS_Store
+Thumbs.db
