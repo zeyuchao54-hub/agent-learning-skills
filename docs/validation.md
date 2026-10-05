@@ -11,7 +11,7 @@ The package validator checks this package's simple skill frontmatter, folder/nam
 
 The initializer tests check explicit output targeting, honest initial state, existing-content preservation, disabled notes, language/format settings, dry-run behavior, Unicode labels, invalid inputs, parent-file conflicts, and use with the tutor skill copied out of this repository. A symlink-escape check runs when the OS grants directory-symlink creation; otherwise it is reported as skipped.
 
-CI is configured to run these checks on Linux, Windows, and macOS with Python 3.10 and 3.14. A configured workflow is not evidence of a successful remote run. Initial local verification is recorded in [the local validation report](validation-report.md).
+CI runs these checks on Linux, Windows, and macOS with Python 3.10 and 3.14. The first remote run passed all six matrix jobs; local and remote results are recorded in [the validation report](validation-report.md). A passing workflow still establishes only that these checks run, not that the skills teach well.
 
 ## Behavioral evaluation prompts
 
